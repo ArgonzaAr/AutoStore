@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/%20_nosotros.css"],"names":[],"mappings":"AAAA,oBAAoB,YAAY,CAAC,6BAA6B","file":" _nosotros.css","sourcesContent":[".contenido-nosotros {\n  display: grid;\n  grid-template-columns: 2fr 1fr;\n}"]}
