@@ -1,53 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="build/css/app.css">
-    <title>AutoStore</title>
-</head>
-<body>
-    <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-
-                <a href="/">
-                    <p class="logo">Auto<span class="logo2">Store</span></p>
-    
-                </a>
-
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono hamburguesa">
-                </div>
-                <div class="derecha">
-                    <img class="dark-mode-button" src="build/img/dark-mode.svg" alt="icono dark-mode">
-                    <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-
-            </div><!--barra-->
-            <h1>AutoSale venta de autos de lujo nuevos y seminuevos</h1>
-        </div>
-    </header>  
+<?php
+   require 'includes/functions.php';
+   includeTemplate('header', $inicio = true);
+?>
     <main class="contenedor seccion">
         <h1>Más sobre nosotros</h1>
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="/build/img/icono1.svg" alt="icono seguridad" loading="lazy">
+                <img src="build/img/icono1.svg" alt="icono seguridad" loading="lazy">
                 <h3>seguridad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="/build/img/icono2.svg" alt="icono seguridad" loading="lazy">
+                <img src="build/img/icono2.svg" alt="icono seguridad" loading="lazy">
                 <h3>precio</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="/build/img/icono3.svg" alt="icono seguridad" loading="lazy">
+                <img src="build/img/icono3.svg" alt="icono seguridad" loading="lazy">
                 <h3>a tiempo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
@@ -202,18 +171,8 @@
             <p>- Angel Argonza</p>
         </section>
     </div>
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
 
-            <p class="copyright">Todos los derechos reservados 2023 &copy;</p>
-        </div>
-    </footer>
+    <?php includeTemplate('footer'); ?>
 
     <script src="build/js/bundle.min.js"></script>
 </body>
