@@ -6,17 +6,17 @@
         <h1>Más sobre nosotros</h1>
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="build/img/icono1.svg" alt="icono seguridad" loading="lazy">
+                <img src="<?php echo IMAGENES_URL . 'icono1.svg'?>" alt="icono seguridad" loading="lazy">
                 <h3>seguridad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="build/img/icono2.svg" alt="icono seguridad" loading="lazy">
+                <img src="<?php echo IMAGENES_URL . 'icono2.svg'?>" alt="icono seguridad" loading="lazy">
                 <h3>precio</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="build/img/icono3.svg" alt="icono seguridad" loading="lazy">
+                <img src="<?php echo IMAGENES_URL . 'icono3.svg'?>" alt="icono seguridad" loading="lazy">
                 <h3>a tiempo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
@@ -28,9 +28,9 @@
         <div class="contenedor-anuncios">
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto1.webp" type="image/webp">
-                        <source srcset="build/img/auto1.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto1.webp'?>" type="image/webp">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto1.jpg'?>" type="image/jpeg">
+                        <img src="<?php echo IMAGENES_URL . 'auto1.jpg'?>" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -39,15 +39,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -58,9 +58,9 @@
             </div><!--anuncio-->
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto2.webp" type="image/webp">
-                        <source srcset="build/img/auto2.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto2.webp'?>" type="image/webp">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto2.jpg'?>" type="image/jpeg">
+                        <img src="<?php echo IMAGENES_URL . 'auto2.jpg'?>" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -69,15 +69,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -88,9 +88,9 @@
             </div><!--anuncio-->
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto3.webp" type="image/webp">
-                        <source srcset="build/img/auto3.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto3.webp'?>" type="image/webp">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto3.jpg'?>" type="image/jpeg">
+                        <img src="<?php echo IMAGENES_URL . 'auto3.jpg'?>" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -99,15 +99,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -134,9 +134,9 @@
             <article class="entrada-blog">
                 <div class="imagen">
                     <picture>
-                        <source srcset="build/img/blog3.webp" type="image/webp">
-                        <source srcset="build/img/blog3.jpg" type="image/jpeg">
-                        <img src="build/img/blog3.jpg" alt="imagen de blog" loading="lazy">
+                        <source srcset="<?php echo IMAGENES_URL . 'blog3.webp'?>" type="image/webp">
+                        <source srcset="<?php echo IMAGENES_URL . 'blog3.jpg'?>" type="image/jpeg">
+                        <img src="<?php echo IMAGENES_URL . 'blog3.jpg'?>" alt="anuncio" loading="lazy">
                     </picture>
                 </div>
 
@@ -151,9 +151,9 @@
             <article class="entrada-blog">
                 <div class="imagen">
                     <picture>
-                        <source srcset="build/img/auto4.webp" type="image/webp">
-                        <source srcset="build/img/auto4.jpg" type="image/jpeg">
-                        <img src="build/img/auto4.jpg" alt="imagen de blog" loading="lazy">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto4.webp'?>" type="image/webp">
+                        <source srcset="<?php echo IMAGENES_URL . 'auto4.jpg'?>" type="image/jpeg">
+                        <img src="<?php echo IMAGENES_URL . 'auto4.jpg'?>" alt="anuncio" loading="lazy">
                     </picture>
                 </div>
 
@@ -173,7 +173,5 @@
     </div>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>
