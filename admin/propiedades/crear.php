@@ -1,6 +1,10 @@
 <?php
-   require '../../includes/functions.php';
-   includeTemplate('header');
+    require '../../includes/config/database.php';
+
+    $db = conectDb('localhost', 'root', 'arg0nza', 'autostoreasdfas');
+
+    require '../../includes/functions.php';
+    includeTemplate('header');
 ?>
     <main class="contenedor seccion">
         <h1>Crear</h1>
