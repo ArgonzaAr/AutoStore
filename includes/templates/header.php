@@ -11,7 +11,7 @@
         <div class="contenedor contenido-header">
             <div class="barra">
 
-                <a href="/AutoStore/">
+                <a href="/AutoStore/index.php">
                     <p class="logo">Auto<span class="logo2">Store</span></p>
                 </a>
 

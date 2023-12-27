@@ -18,15 +18,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -48,15 +48,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -78,15 +78,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -108,15 +108,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -138,15 +138,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -168,15 +168,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -189,7 +189,5 @@
     </main>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

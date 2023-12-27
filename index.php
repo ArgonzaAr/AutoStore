@@ -39,15 +39,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -69,15 +69,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
@@ -99,15 +99,15 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'puerta-del-auto.png'?>" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'motor-del-coche.png'?>" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
+                            <img class="icono-propiedad" src="<?php echo IMAGENES_URL . 'velocidad-de-descarga.png'?>" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
