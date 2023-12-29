@@ -11,35 +11,35 @@
         </picture>
 
         <h2>Llene el formulario de contacto</h2>
-        <form class="formulario">
+        <form class="formulario" method="POST" action="">
             <fieldset>
                 <legend>Información personal</legend>
 
                 <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder="Tu nombre">
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
 
                 <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Tu E-mail">
+                <input type="email" id="email" name="email" placeholder="Tu E-mail">
 
                 <label for="telefono">Teléfono</label>
-                <input type="tel" id="telefono" placeholder="Tu telefono">
+                <input type="tel" id="telefono" name="telefono" placeholder="Tu telefono">
 
                 <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" placeholder="Escribe el mensaje"></textarea>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe el mensaje"></textarea>
             </fieldset>
 
             <fieldset>
                 <legend>Informacion sobre el automóvil</legend>
 
                 <label for="selection">Vende o Compra</label>
-                <select name="" id="selection">
+                <select name="selection" id="selection">
                     <option selected disabled value="">--Seleccione--</option>
                     <option value="Vende">Vende</option>
                     <option value="Compra">Compra</option>
                 </select>
 
                 <label for="cantidad">Precio o presupuesto</label>
-                <input type="number" id="cantidad" placeholder="Precio o presupuesto">
+                <input type="number" id="cantidad" name="cantidad" placeholder="Precio o presupuesto">
             </fieldset>
 
             <fieldset>
@@ -48,19 +48,19 @@
                 <p>¿Cómo desea ser contactado?</p>
                 <div class="forma-contacto">
                     <label for="contactar-telefono">Teléfono</label>
-                    <input type="radio" name="tipo-contacto" id="contactar-telefono">
+                    <input type="radio" name="tipo-contacto" value="telefono" id="contactar-telefono">
                     
                     <label for="contactar-correo">E-mail</label>
-                    <input type="radio" name="tipo-contacto" id="contactar-correo">
+                    <input type="radio" name="tipo-contacto" value="Email" id="contactar-correo">
                 </div>
 
                 <p>Si eligió teléfono, eliga fecha y hora</p>
                 <div class="fecha-hora-contacto">
                     <label for="fecha-contacto">Fecha</label>
-                    <input type="date" name="" id="fecha-contacto">
+                    <input type="date" name="fecha-contacto" id="fecha-contacto">
 
                     <label for="hora-contacto">Hora</label>
-                    <input type="time" name="" id="hora-contacto">
+                    <input type="time" name="hora-contacto" id="hora-contacto">
                 </div>
             </fieldset>
 
