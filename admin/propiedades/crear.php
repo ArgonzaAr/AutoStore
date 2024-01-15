@@ -1,18 +1,8 @@
 <?php
-<<<<<<< HEAD
-   require '../../includes/functions.php';
-   includeTemplate('header');
-?>
-    <main class="contenedor seccion">
-        <h1>Crear</h1>
-    </main>
-
-    <?php include '../../includes/templates/footer.php' ?>
-=======
     require '../../includes/config/database.php';
     require '../../includes/functions.php';
 
-    $db = conectDb('localhost', 'root', 'mysql5', 'autostore');
+    $db = conectDb('localhost', 'root', '', 'auto_store');
     //arreglo para los errores.
     $errores = [];
 
@@ -104,6 +94,5 @@
         </form>
     </main>
     <?php includeTemplate('footer')?>
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
 </body>
 </html>
