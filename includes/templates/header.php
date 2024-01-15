@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/autostore/build/css/app.css">
+    <link rel="stylesheet" href="/AutoStore/build/css/app.css">
     <title>AutoStore</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="contenedor contenido-header">
             <div class="barra">
 
-                <a href="/AutoStore/">
+                <a href="/AutoStore/index.php">
                     <p class="logo">Auto<span class="logo2">Store</span></p>
                 </a>
 
@@ -19,7 +19,11 @@
                     <img src="/autostore/build/img/barras.svg" alt="icono hamburguesa">
                 </div>
                 <div class="derecha">
+<<<<<<< HEAD
                     <img class="dark-mode-button" src="/autostore/build/img/dark-mode.svg" alt="icono dark-mode">
+=======
+                    <img class="dark-mode-button" src="/AutoStore/build/img/dark-mode.svg" alt="icono dark-mode">
+>>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
                     <nav class="navegacion">
                         <a href="nosotros.php">Nosotros</a>
                         <a href="anuncios.php">Anuncios</a>
