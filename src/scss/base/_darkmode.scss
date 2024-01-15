@@ -12,14 +12,17 @@
     .anuncio{
         background-color: $grisOscuro;
         border: 1px solid $grisOscuro;
-        .precio{
-            color: $verde;
-        }
-
-        .icono-caracteristica{
-            filter: invert(100%);
-        }
+        
     }
+    
+    .precio{
+        color: $verde;
+    }
+    
+    .icono-caracteristica{
+        filter: invert(100%);
+    }
+
 
     .formulario{
         label,

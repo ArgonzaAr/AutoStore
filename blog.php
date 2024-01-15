@@ -14,7 +14,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Carro deportivo</h4>
                     <p>Escrito el: <span>28/08/23</span> por: <span>Admin</span></p>
                     <p>Consejos para elegir el mejor auto deportivo con los mejores precios y calidad</p>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Gía para mejorar la autonomía de tu auto</h4>
                     <p class="informacion-meta">Escrito el: <span>12/09/23</span> por: <span>Admin</span></p>
                     <p>Las mejores práctiocas para mejorar la autonomía de tu auto reduciendo el riesgo de futuros problemas</p>
@@ -48,7 +48,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Gía para mejorar la autonomía de tu auto</h4>
                     <p>Escrito el: <span>12/09/23</span> por: <span>Admin</span></p>
                     <p>Las mejores práctiocas para mejorar la autonomía de tu auto reduciendo el riesgo de futuros problemas</p>
@@ -65,7 +65,7 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Gía para mejorar la autonomía de tu auto</h4>
                     <p class="informacion-meta">Escrito el: <span>12/09/23</span> por: <span>Admin</span></p>
                     <p>Las mejores práctiocas para mejorar la autonomía de tu auto reduciendo el riesgo de futuros problemas</p>
@@ -75,7 +75,5 @@
     </main>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

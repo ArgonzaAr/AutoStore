@@ -8,17 +8,11 @@ function darkmode(){
     const defaultDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 
     if(defaultDarkMode.matches){
-        document.body.classList.add('dark-mode');
-    }else{
-        document.body.classList.remove('dark-mode');
+        document.body.classList.toggle('dark-mode'); 
     }
 
     defaultDarkMode.addEventListener('change', function(){
-        if(defaultDarkMode.matches){
-            document.body.classList.add('dark-mode');
-        }else{
-            document.body.classList.remove('dark-mode');
-        }
+        document.body.classList.toggle('dark-mode'); 
     });
     botonDarkMode.addEventListener('click', function(){
         document.body.classList.toggle('dark-mode'); 

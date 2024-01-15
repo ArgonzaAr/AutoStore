@@ -9,4 +9,5 @@
 
             <p class="copyright">Todos los derechos reservados 2023 &copy;</p>
         </div>
-    </footer>
+</footer>
+<script src="/autostore/build/js/bundle.min.js"></script>

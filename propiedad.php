@@ -1,26 +1,27 @@
 <?php
-    include './includes/templates/header.php';
+    require 'includes/functions.php';
+    includeTemplate('header');
 ?>
     <main class="contenedor seccion contenido-centrado">
         <h1>Automovil en venta</h1>
         <picture>
-            <source srcset="build/img/auto1.webp" type="image/webp">
-            <source srcset="build/img/auto1.jpg" type="image/jpeg">
-            <img loading="lazy" src="build/img/auto1.jpg" alt="imagen propiedad">
+            <source srcset="/autostore/build/img/auto1.webp" type="image/webp">
+            <source srcset="/autostore/build/img/auto1.jpg" type="image/jpeg">
+            <img loading="lazy" src="/autostore/build/img/auto1.jpg" alt="imagen propiedad">
         </picture>
         <div class="resumen-propiedad">
             <p class="precio">$800,000</p>
             <ul class="iconos-caracteristicas icono-propiedad">
                 <li>
-                    <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                    <img class="icono-caracteristica" src="/autostore/build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                     <p>4</p>
                 </li>
                 <li>
-                    <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                    <img class="icono-caracteristica" src="/autostore/build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                     <p>1500</p>
                 </li>
                 <li>
-                    <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                    <img class="icono-caracteristica" src="/autostore/build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                     <p>10,000</p>
                 </li>
             </ul>
@@ -31,7 +32,5 @@
     </main>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

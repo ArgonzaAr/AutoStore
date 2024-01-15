@@ -30,7 +30,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -60,7 +60,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -90,7 +90,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -120,7 +120,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -150,7 +150,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -180,7 +180,7 @@
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="propiedad.html" class="boton-amarillo-block">
+                    <a href="propiedad.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
@@ -189,7 +189,5 @@
     </main>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

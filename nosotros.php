@@ -7,9 +7,9 @@
         <div class="contenido-nosotros">
             <div class="imagen-nosotros">
                 <picture>
-                    <source srcset="/build/img/header1.webp" type="img/webp">
-                    <source srcset="build/img/header1.jpg" type="img/jpeg">
-                    <img src="build/img/header1.jpg" alt="imagen nosotros" loading="lazy">
+                    <source srcset="/autostore/build/img/header1.webp" type="img/webp">
+                    <source srcset="/autostore/build/img/header1.jpg" type="img/jpeg">
+                    <img src="/autostore/build/img/header1.jpg" alt="imagen nosotros" loading="lazy">
                 </picture>
             </div>
             <div class="texto-nosotros">
@@ -23,17 +23,17 @@
         <h1>Más sobre nosotros</h1>
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="/build/img/icono1.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono1.svg" alt="icono seguridad" loading="lazy">
                 <h3>seguridad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="/build/img/icono2.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono2.svg" alt="icono seguridad" loading="lazy">
                 <h3>precio</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="/build/img/icono3.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono3.svg" alt="icono seguridad" loading="lazy">
                 <h3>a tiempo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
@@ -41,7 +41,5 @@
     </section>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

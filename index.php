@@ -6,17 +6,17 @@
         <h1>Más sobre nosotros</h1>
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="build/img/icono1.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono1.svg" alt="icono seguridad" loading="lazy">
                 <h3>seguridad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="build/img/icono2.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono2.svg" alt="icono seguridad" loading="lazy">
                 <h3>precio</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-                <img src="build/img/icono3.svg" alt="icono seguridad" loading="lazy">
+                <img src="/autostore/build/img/icono3.svg" alt="icono seguridad" loading="lazy">
                 <h3>a tiempo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
@@ -28,9 +28,9 @@
         <div class="contenedor-anuncios">
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto1.webp" type="image/webp">
-                        <source srcset="build/img/auto1.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="/autostore/build/img/auto1.webp" type="image/webp">
+                        <source srcset="/autostore/build/img/auto1.jpg" type="image/jpeg">
+                        <img src="/autostore/build/img/auto1.jpg" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -39,28 +39,28 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
             </div><!--anuncio-->
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto2.webp" type="image/webp">
-                        <source srcset="build/img/auto2.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="/autostore/build/img/auto2.webp" type="image/webp">
+                        <source srcset="/autostore/build/img/auto2.jpg" type="image/jpeg">
+                        <img src="/autostore/build/img/auto1.jpg" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -69,28 +69,28 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
             </div><!--anuncio-->
             <div class="anuncio">
                     <picture>
-                        <source srcset="build/img/auto3.webp" type="image/webp">
-                        <source srcset="build/img/auto3.jpg" type="image/jpeg">
-                        <img src="build/img/auto1.jpg" alt="anuncio" loading="lazy">
+                        <source srcset="/autostore/build/img/auto3.webp" type="image/webp">
+                        <source srcset="/autostore/build/img/auto3.jpg" type="image/jpeg">
+                        <img src="/autostore/build/img/auto1.jpg" alt="anuncio" loading="lazy">
                     </picture>
                 <div class="contenido-anuncio">
                     <h3>Camioneta Audi</h3>
@@ -99,33 +99,33 @@
 
                     <ul class="iconos-caracteristicas">
                         <li>
-                            <img class="icono-caracteristica" src="build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/puerta-del-auto.png" alt="icono puerta" loading="lazy">
                             <p>4</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/motor-del-coche.png" alt="icono puerta" loading="lazy">
                             <p>1500</p>
                         </li>
                         <li>
-                            <img class="icono-caracteristica" src="build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
+                            <img class="icono-caracteristica" src="/autostore/build/img/velocidad-de-descarga.png" alt="icono puerta" loading="lazy">
                             <p>10,000</p>
                         </li>
                     </ul>
-                    <a href="anuncios.html" class="boton-amarillo-block">
+                    <a href="anuncios.php" class="boton-amarillo-block">
                         Ver propiedad
                     </a>
                 </div><!--contenido-anuncio-->
             </div><!--anuncio-->
         </div><!--Contenedor-auncios-->
         <div class="alinear-derecha">
-            <a href="anuncios.html" class="boton-verde">Ver Todas</a>
+            <a href="anuncios.php" class="boton-verde">Ver Todas</a>
         </div>
     </section>
 
     <section class="imagen-contacto">
         <h2>Encuentra el auto de tus sueños</h2>
         <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo a la brevedad</p>
-        <a href="contacto.html" class="boton-amarillo-inlineblock">Contáctanos</a>
+        <a href="contacto.php" class="boton-amarillo-inlineblock">Contáctanos</a>
     </section>
 
     <div class="contenedor seccion seccion-inferior">
@@ -134,14 +134,14 @@
             <article class="entrada-blog">
                 <div class="imagen">
                     <picture>
-                        <source srcset="build/img/blog3.webp" type="image/webp">
-                        <source srcset="build/img/blog3.jpg" type="image/jpeg">
-                        <img src="build/img/blog3.jpg" alt="imagen de blog" loading="lazy">
+                        <source srcset="/autostore/build/img/blog3.webp" type="image/webp">
+                        <source srcset="/autostore/build/img/blog3.jpg" type="image/jpeg">
+                        <img src="/autostore/build/img/blog3.jpg" alt="imagen de blog" loading="lazy">
                     </picture>
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="entrada.php">
                         <h4>Carro deportivo</h4>
                         <p>Escrito el: <span>28/08/23</span> por: <span>Admin</span></p>
                         <p>Consejos para elegir el mejor auto deportivo con los mejores precios y calidad</p>
@@ -151,14 +151,14 @@
             <article class="entrada-blog">
                 <div class="imagen">
                     <picture>
-                        <source srcset="build/img/auto4.webp" type="image/webp">
-                        <source srcset="build/img/auto4.jpg" type="image/jpeg">
-                        <img src="build/img/auto4.jpg" alt="imagen de blog" loading="lazy">
+                        <source srcset="/autostore/build/img/auto4.webp" type="image/webp">
+                        <source srcset="/autostore/build/img/auto4.jpg" type="image/jpeg">
+                        <img src="/autostore/build/img/auto4.jpg" alt="imagen de blog" loading="lazy">
                     </picture>
                 </div>
 
                 <div class="texto-entrada">
-                    <a href="entrada.html">
+                    <a href="entrada.php">
                         <h4>Gía para mejorar la autonomía de tu auto</h4>
                         <p>Escrito el: <span>12/09/23</span> por: <span>Admin</span></p>
                         <p>Las mejores práctiocas para mejorar la autonomía de tu auto reduciendo el riesgo de futuros problemas</p>
@@ -173,7 +173,5 @@
     </div>
 
     <?php includeTemplate('footer'); ?>
-
-    <script src="build/js/bundle.min.js"></script>
 </body>
 </html>

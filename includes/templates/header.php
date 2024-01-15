@@ -16,10 +16,10 @@
                 </a>
 
                 <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono hamburguesa">
+                    <img src="/autostore/build/img/barras.svg" alt="icono hamburguesa">
                 </div>
                 <div class="derecha">
-                    <img class="dark-mode-button" src="build/img/dark-mode.svg" alt="icono dark-mode">
+                    <img class="dark-mode-button" src="/autostore/build/img/dark-mode.svg" alt="icono dark-mode">
                     <nav class="navegacion">
                         <a href="nosotros.php">Nosotros</a>
                         <a href="anuncios.php">Anuncios</a>
