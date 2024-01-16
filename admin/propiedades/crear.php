@@ -3,8 +3,22 @@
     require '../../includes/functions.php';
 
     $db = conectDb('localhost', 'root', '', 'auto_store');
+
+    //traer registros de bd para Vendedores
+
+    $consulta = 'SELECT V_ID, V_NOMBRE, V_APELLIDO FROM vendedores';
+
+    $resultado = mysqli_query($db, $consulta);
     //arreglo para los errores.
     $errores = [];
+
+    $titulo = '';
+    $precio = '';
+    $descripcion = '';
+    $habitaciones = '';
+    $banio = '';
+    $estacionamiento = '';
+    $vendedorId = '';
 
     //Validar el método post
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -16,7 +30,8 @@
         $habitaciones = $_POST['habitaciones'];
         $banio = $_POST['banio'];
         $estacionamiento = $_POST['estacionamiento'];
-        $vendedor = $_POST['vendedor'];
+        $vendedorId = $_POST['vendedor'];
+        $datecreate = date('Y-m-d');
 
         //validar errores
         if(!$titulo){
@@ -37,11 +52,21 @@
         if(!$estacionamiento){
             $errores[] = 'El estacionamiento no puede ir vacío';
         }
-        if(!isset($vendedor)){
+        if(!isset($vendedorId)){
             $errores[] = 'El vendedor no puede ir vacío';
         }
     }
 
+    if(empty($errores)){
+        $query = "INSERT INTO propiedades (V_ID, P_TITULO, P_PRECIO, P_DESCRIPCION, P_HABITACIONES, P_BANIO, P_DATECREATE) VALUES ('$vendedorId', '$titulo', $precio, '$descripcion', $habitaciones, $banio, $datecreate);";
+
+        $resultado = mysqli_query($db, $query);
+
+        if($resultado){
+            echo 'Insertado Correctamente';
+        }
+
+    }
     includeTemplate('header');
 ?>
     <main class="contenedor seccion">
@@ -55,29 +80,29 @@
                 <legend>Información General</legend>
 
                 <label for="titulo">Titulo:</label>
-                <input type="text" id="titulo" name="titulo" placeholder="Titulo Propiedad">
+                <input type="text" id="titulo" name="titulo" value="<?php echo $titulo; ?>" placeholder="Titulo Propiedad">
 
                 <label for="precio">Precio:</label>
-                <input type="number" id="precio" name="precio" placeholder="Precio Propiedad">
+                <input type="number" id="precio" name="precio" value="<?php echo $precio; ?>" placeholder="Precio Propiedad">
                 
                 <label for="imagen">Imagen:</label>
                 <input type="file" id="imagen" accept="image/jpg, image/png">
 
                 <label for="descripcion">Descripción:</label>
-                <input type="number" id="descripcion" name="descripcion" placeholder="Precio Propiedad">
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10"><?php echo $descripcion; ?></textarea>
             </fieldset>
             
             <fieldset>
                 <legend>Información de la Propiedad</legend>
                 
                 <label for="habitaciones">Habitaciones:</label>
-                <input type="number" id="habitaciones" name="habitaciones" min="1" max="9" placeholder="Ej:3">
+                <input type="number" id="habitaciones" name="habitaciones" min="1" max="9" placeholder="Ej:3" value="<?php echo $habitaciones; ?>">
                 
                 <label for="banio">Baños:</label>
-                <input type="number" id="banio" name="banio" min="1" max="9" placeholder="Ej:3">
+                <input type="number" id="banio" name="banio" min="1" max="9" placeholder="Ej:3" value="<?php echo $banio; ?>">
                 
                 <label for="estacionamiento">Estacionamiento:</label>
-                <input type="number" id="estacionamiento" name="estacionamiento" min="1" max="9" placeholder="Ej:3">
+                <input type="number" id="estacionamiento" name="estacionamiento" min="1" max="9" placeholder="Ej:3" value="<?php echo $estacionamiento; ?>">
             </fieldset>
 
             <fieldset>
@@ -86,8 +111,9 @@
                 <label for="vendedor">Vendedor:</label>
                 <select name="vendedor" id="vendedor">
                     <option value="0" selected>Selecciona un Vendedor</option>
-                    <option value="Angel">Ángel</option>
-                    <option value="Karen">Karen</option>
+                     <?php while($vendedor = mysqli_fetch_assoc($resultado)) : ?>
+                        <option <?php echo ($vendedorId == $vendedor['V_ID']) ? 'selected' : ' ' ?> value="<?php echo $vendedor['V_ID'] ?>"><?php echo $vendedor['V_NOMBRE'] . ' ' . $vendedor['V_APELLIDO'] ?></option>
+                    <?php endwhile; ?>
                 </select>
             </fieldset>
             <input type="submit" value="Crear Propiedad" class="boton boton-verde">

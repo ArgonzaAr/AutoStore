@@ -23,29 +23,17 @@
         <h1>Más sobre nosotros</h1>
         <div class="iconos-nosotros">
             <div class="icono">
-<<<<<<< HEAD
-                <img src="/autostore/build/img/icono1.svg" alt="icono seguridad" loading="lazy">
-=======
                 <img src="<?php echo IMAGENES_URL . 'icono1.svg'?>" alt="icono seguridad" loading="lazy">
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
                 <h3>seguridad</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-<<<<<<< HEAD
-                <img src="/autostore/build/img/icono2.svg" alt="icono seguridad" loading="lazy">
-=======
                 <img src="<?php echo IMAGENES_URL . 'icono2.svg'?>" alt="icono seguridad" loading="lazy">
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
                 <h3>precio</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->
             <div class="icono">
-<<<<<<< HEAD
-                <img src="/autostore/build/img/icono3.svg" alt="icono seguridad" loading="lazy">
-=======
                 <img src="<?php echo IMAGENES_URL . 'icono3.svg'?>" alt="icono seguridad" loading="lazy">
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
                 <h3>a tiempo</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat voluptate sed quasi iure, esse eaque nihil exercitationem voluptas perferendis ex amet non? Facilis nostrum reiciendis possimus consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint molestiae deleniti pariatur.</p>
             </div><!--.icono-->

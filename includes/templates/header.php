@@ -19,11 +19,7 @@
                     <img src="/autostore/build/img/barras.svg" alt="icono hamburguesa">
                 </div>
                 <div class="derecha">
-<<<<<<< HEAD
-                    <img class="dark-mode-button" src="/autostore/build/img/dark-mode.svg" alt="icono dark-mode">
-=======
                     <img class="dark-mode-button" src="/AutoStore/build/img/dark-mode.svg" alt="icono dark-mode">
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
                     <nav class="navegacion">
                         <a href="nosotros.php">Nosotros</a>
                         <a href="anuncios.php">Anuncios</a>

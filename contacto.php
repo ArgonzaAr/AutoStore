@@ -69,9 +69,5 @@
     </main>
 
     <?php includeTemplate('footer'); ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> 9bacfe5ea5e66f7affb578d7074f5563b82e63a1
 </body>
 </html>
